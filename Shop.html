@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop - DOUX HAVEN</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Playfair+Display&family=Montserrat&display=swap');
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #F9F3EE; /* Creamy Beige */
+      color: #7A6F72; /* Soft Gray */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f8e8e8;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #F4C6C6; /* Blush Pink */
+    }
+    nav {
+      background-color: #f1dada;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    nav a {
+      text-decoration: none;
+      color: #F4C6C6; /* Blush Pink */
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #D8A7A7; /* Dusty Rose */
+    }
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #D8A7A7; /* Dusty Rose */
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      color: #7A6F72;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .product-card h3 {
+      font-family: 'Playfair Display', serif;
+      color: #D8A7A7;
+      margin-bottom: 10px;
+    }
+    .product-card p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+    .price {
+      font-weight: bold;
+      color: #F4C6C6;
+      margin-bottom: 15px;
+    }
+    .btn-buy {
+      background-color: #F4C6C6; /* Blush Pink */
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn-buy:hover {
+      background-color: #D8A7A7; /* Dusty Rose */
+    }
+    footer {
+      background-color: #f1dada;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>DOUX HAVEN</header>
+  <nav>
+   <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="shop.html">Shop</a>
+  <a href="blog.html">Blog</a>
+  <div class="dropdown">
+    <a href="#">Blog Posts ▼</a>
+    <div class="dropdown-content">
+      <a href="blog-style-dress.html">Style Your Dress</a>
+      <a href="blog-baking-essentials.html">Baking Essentials</a>
+      <a href="blog-soft-neutrals.html">Soft Neutrals Decor</a>
+    </div>
+  </div>
+  <a href="contact.html">Contact</a>
+</nav>
+  <main>
+    <h1>Shop Our Products</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/280x180?text=Cupcakes" alt="Cupcakes" />
+        <h3>Delicious Cupcakes</h3>
+        <p>Sweet and moist cupcakes topped with creamy frosting. Perfect for any occasion.</p>
+        <div class="price">$12.00</div>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/280x180?text=Elegant+Dress" alt="Elegant Dress" />
+        <h3>Elegant Dress</h3>
+        <p>Chic and stylish dress made with premium fabric, designed for comfort and elegance.</p>
+        <div class="price">$75.00</div>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/280x180?text=Home+Decor" alt="Home Decor" />
+        <h3>Cozy Home Decor</h3>
+        <p>Beautiful décor items to add charm and warmth to your living spaces.</p>
+        <div class="price">$45.00</div>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 DOUX HAVEN. All rights reserved.
+  </footer>
+</body>
+</html>
