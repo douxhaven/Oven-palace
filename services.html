@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services & Products - DOUX HAVEN</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Playfair+Display&family=Montserrat&display=swap');
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #F9F3EE; /* Creamy Beige */
+      color: #7A6F72; /* Soft Gray */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f8e8e8;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #F4C6C6; /* Blush Pink */
+    }
+    nav {
+      background-color: #f1dada;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    nav a {
+      text-decoration: none;
+      color: #F4C6C6; /* Blush Pink */
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #D8A7A7; /* Dusty Rose */
+    }
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #D8A7A7; /* Dusty Rose */
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .service-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .service-item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 280px;
+      padding: 20px;
+      color: #7A6F72;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .service-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .service-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .service-item h3 {
+      font-family: 'Playfair Display', serif;
+      color: #D8A7A7;
+      margin-bottom: 10px;
+    }
+    .service-item p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    footer {
+      background-color: #f1dada;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>DOUX HAVEN</header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Services</a>
+    <a href="#">Shop</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <h1>Our Services & Products</h1>
+    <div class="service-list">
+      <div class="service-item">
+        <img src="https://via.placeholder.com/280x180?text=Baked+Goods" alt="Baking" />
+        <h3>Baking</h3>
+        <p>Freshly baked artisan pastries, cakes, and treats crafted with premium ingredients and a touch of love.</p>
+      </div>
+      <div class="service-item">
+        <img src="https://via.placeholder.com/280x180?text=Fashion" alt="Fashion" />
+        <h3>Fashion</h3>
+        <p>Elegant and timeless apparel designed to celebrate your individuality and style.</p>
+      </div>
+      <div class="service-item">
+        <img src="https://via.placeholder.com/280x180?text=Decor+Items" alt="Decorating" />
+        <h3>Decorating</h3>
+        <p>Charming home décor pieces that bring warmth and personality to your living space.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 DOUX HAVEN. All rights reserved.
+  </footer>
+</body>
+</html>
